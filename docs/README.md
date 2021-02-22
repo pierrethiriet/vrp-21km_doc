@@ -1,10 +1,8 @@
 ---
-title: my title
-author: my name
-date: today
+
 ---
 
-## Welcome to GitHub Pages
+## Application pour l'optimisation de tournée de distribution
 
 You can use the [editor on GitHub](https://github.com/pierrethiriet/vrp-21km_doc/edit/main/docs/index.md) to maintain and preview the content for your website in Markdown files.
 
