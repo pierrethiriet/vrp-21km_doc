@@ -3,8 +3,8 @@
 ## Version 0.9
 _22/02/2021_
 
-- Le solver ne s'arrète qu'après un temps fixé: 10s pour la tournée secondaire et 60s pour la tournée secondaire afin d'assurer une meilleur stabilité des résultats.
-- Ajout d'une option pour permettre l'assouplissement des crénaux horaire des clients sans toucher au horaire de livraison pour les service de livraison secondaire.
+- Le solver ne s’arrête qu’après un temps fixé : 10s pour la tournée secondaire et 60s pour la tournée secondaire afin d’assurer une meilleure stabilité des résultats.
+- Ajout d’une option pour permettre l’assouplissement des créneaux horaires des clients sans toucher aux horaires de livraison pour les services de livraison secondaire.
 - Ajustement du temps de passage pour chaque client à 5 min. 
 - Ajout d’un résumé des tournées par chauffeur : nombre de clients, distances parcourues et heure d’arrivée. Ces informations apparaissent dans un tableau et les popups sur la carte.
 - Les fichiers _.csv_ et _.geojson_ sont nommés à partir de la date et du créneau de la tournée (ex. : tournee-20210217_soir.csv).
