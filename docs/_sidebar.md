@@ -1,4 +1,5 @@
 <!-- docs/_sidebar.md -->
 
 * [Home](/)
-* [Clients](clients.md "The greatest guide in the world")
+* [Note de version](release-note.md)
+* [Importer des commandes](clients.md "The greatest guide in the world")
