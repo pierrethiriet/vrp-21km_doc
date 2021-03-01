@@ -1,5 +1,10 @@
 # Note de développement de l'application
 
+## Version 0.10
+_01/03/2021_
+
+- Ajout d'une option pour intégrer un arrêt à l'une des stations-service cibles lors des tournées.
+
 ## Version 0.9
 _22/02/2021_
 
