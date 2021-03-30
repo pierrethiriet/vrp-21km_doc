@@ -1,5 +1,39 @@
 # Note de développement de l'application
 
+## Version 0.11
+_25/03/2021_
+
+### Nouvelles fonctionnalités
+
+- Ajout d'une option pour ajuster globalement le __temps d'arrêt__ lors des livraisons.
+---
+![](./_media/parametres_dureeArrets.png)  
+---
+
+- Ajout d'une option pour spécifier des __temps d'arrêts__ dans le fichier des clients (colonne "STOP DURATION").
+
+- Ajout d'une option pour spécifier les __coordonnées__ directement dans le fichier des clients (colonnes "LNG" et "LAT"). Les coordonnées doivent être au format _decimal_. Pour les clients qui ont leurs coordonnées renseignées, l'application ne fera pas de géoréférencement. Il est possible de mixer les clients avec ou sans coordonnés dans le même fichier.
+
+_Options pour la table des clients:_
+
+| ... | STOP DURATION |    LNG   |    LAT   |
+|:---:|:-------------:|:--------:|:--------:|
+| ... |       5       | -1.41945 | 48.15798 |
+| ... |       8       | -1.43869 | 48.16815 |
+
+
+- Ajout d'une interface pour la gestion des services (station services, etc.) et possibilité de choisir entre plusieurs services (plusieurs types de stations-service par exemple).
+---
+![](./_media/driver_services.png)  
+---
+
+- La liste des livraisons de chaque chauffeur peut être exportée individuellement au format GPX pour être utilisée dans leur application de guidage routier.
+- Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers v1.9.1 et modification du format des objectifs d'optimisations en conséquence.
+
+### Corrections d'erreurs 
+- Gestion d'une erreur lorsque la tournée inclut un service secondaire, mais qu'aucun client n'est disponible (aucun dans la ou les zones de déserte ou déjà liée à un autre chauffeur).
+
+
 ## Version 0.10
 _01/03/2021_
 
