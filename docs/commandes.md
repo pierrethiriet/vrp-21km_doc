@@ -3,7 +3,7 @@
 
 ## Format des fichiers
 
-L’ensemble des données concernant les livraisons doivent être importées dans l’application sous la forme d’un fichier _csv_.
+L’ensemble des données concernant les livraisons doivent être importées dans l’application sous la forme d’un fichier _csv_ (format du séparateur: __";"__).
 
 ## Format des propriétés
 
@@ -18,5 +18,8 @@ Ce fichier doit impérativement comporter les informations suivantes :
 |CP| Text | Code postal ||
 |VILLE| Text | Ville ||
 |TOURNEE| Text | Période de tournée :<br> Mots clés distinguant les tournées d’une même journée | "matin" ou "midi" |
+
+deux colonnes suplémentaites peuvent être ajoutées:
+- 
 
 
