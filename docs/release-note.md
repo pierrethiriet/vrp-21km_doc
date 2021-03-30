@@ -27,7 +27,14 @@ _Options pour la table des clients:_
 ![](./_media/driver_services.png)  
 ---
 
+- __Conservation des résultats__ de la cession. Cette option permet de comparer l'impact de différents paramètres sur les résultats. 
+---
+![](./_media/screenshot_listeResultat.png)  
+---
+
 - La liste des livraisons de chaque chauffeur peut être exportée individuellement au format GPX pour être utilisée dans leur application de guidage routier.
+
+
 - Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers v1.9.1 et modification du format des objectifs d'optimisations en conséquence.
 
 ### Corrections d'erreurs 
