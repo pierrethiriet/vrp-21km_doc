@@ -7,7 +7,7 @@ _XX/04/2021_
 ### Nouvelles fonctionnalités
 
 - Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers v1.10.0 et modification du format de la "fleet" en conséquence.
-- Modification manuelle de l'ordre et de l'attribution des clients aux chauffeurs après optimisation. La carte et le tableau des tournées sont modifiés en conséquence. Cette option a cependant 2 limites majeures. Elle ne permet pas d'attribuer au chauffeur des clients non desservis. D'autre part, elle ne met pas à jour les heures de passages et les distances de parcours. Le résumé et les distances et heures de passage ne sont plus exacts dès qu'une modification est réalisée.
+- Modification manuelle de l'ordre et de l'attribution des clients aux chauffeurs après optimisation. La carte et le tableau des tournées sont modifiés en conséquence. Cette option a cependant 2 limites majeures. Elle ne permet pas d'attribuer un chauffeur à des clients non desservis. D'autre part, les heures de passages et les distances de parcours ne sont pas mis à jour. Le résumé et les distances et heures de passage ne sont plus exacts dès qu'une modification est réalisée.
 ![](./_media/screenshot_reorganizeSolution.png)  
 
 - Modification de la présentation de la liste des arrêts avec l'ajout d'un numéro d'ordre global et l'insertion de la tournée secondaire dans la tournée primaire correspondante.
@@ -16,7 +16,7 @@ _XX/04/2021_
 - Ajout d'une option pour modifier les temps de passage (en minutes) pour chaque client.
 ![](./_media/screenshot_stopDuration.png) 
 
-- Indication de l'heure de départ réel des chauffeurs.
+- Indication de l'heure de départ réelle des chauffeurs.
 ![](./_media/screenshot_driverDepartureTime.png) 
 
 - Enregistrement des résultats dans la base de données et possibilité de les visualiser dans une cession ultérieure. 
