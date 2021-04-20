@@ -13,7 +13,7 @@ _XX/04/2021_
 - Modification de la présentation de la liste des arrêts avec l'ajout d'un numéro d'ordre global et l'insertion de la tournée secondaire dans la tournée primaire correspondante.
 ![](./_media/screenshot_ResultFormated.png)  
 
-- Ajout d'une option pour modifier les temps de passage (en minutes) pour chaque client.
+- Ajout d'une option pour modifier les temps de passage (en minutes) dans le tableau des clients. Par défaut, et lorsqu’aucun temps n'est renseigné, la durée des arrêts est définie par l'option _Paramètres_>_Durée des arrêts_. 
 ![](./_media/screenshot_stopDuration.png) 
 
 - Indication de l'heure de départ réelle des chauffeurs.
