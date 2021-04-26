@@ -1,8 +1,25 @@
 # Note de développement de l'application
 
+## Version 0.13
+_XX/04/2021_
+
+### Nouvelles fonctionnalités
+
+- L'application minimise par défaut les couts de transports en prenant en compte le temps de distribution et la distance parcourue. Une nouvelle option permet maintenant de n'optimiser que pour le _temps_ ou pour la _distance_ parcourue.
+![](./_media/screenshot_ObjPrimary.png) 
+
+- Le _créneau horaire_ de livraison des services de livraison secondaire est _défini explicitement_. Deux champs permettent de choisir l'intervalle de livraison de ces services. Cet intervalle n'est pas influencé par l'option permettant d'élargir la fenêtre de temps des clients.
+![](./_media/screenshot_secondaryServiceDeliveryTime.png) 
+
+### Corrections
+- Les relations chauffeurs clients ne s'enregistrent plus dans la base de données. Cette possibilité n'avait pas de sens, car les identifiants clients sont en réalité des références commandes et changent donc.
+
+- La barre d'outils dans la fenêtre des résultats est réorganisée pour une meilleure ergonomie. 
+![](./_media/screenshot_newResultsToolbar.png) 
+
 
 ## Version 0.12
-_XX/04/2021_
+_26/04/2021_
 
 ### Nouvelles fonctionnalités
 
