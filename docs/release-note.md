@@ -1,7 +1,7 @@
 # Note de développement de l'application
 
 ## Version 0.13
-_XX/04/2021_
+_03/05/2021_
 
 ### Nouvelles fonctionnalités
 
