@@ -1,5 +1,29 @@
 # Note de développement de l'application
 
+
+## Version 0.14
+_24/06/2021_
+
+### Nouvelles fonctionnalités
+
+- Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers _v1.10.4_.
+
+- Possibilité d'élargir les créneaux de livraison uniquement _plus tard_ ou _plus tôt_.  
+![](./_media/screenshot_tw_options.png) 
+
+- Ajout d'un message d'erreur si la somme des capacités des véhicules  est inférieure à la demande.  
+
+- Amélioration des messages d'erreurs lors du géocodage des clients.
+
+### Corrections
+
+- Corrections des modifications manuelles de l'organisation des tournées :
+  - Il est maintenant possible de retirer tout les clients d'un chauffeur. 
+  - L'ajout de clients à une _tournée secondaire_ fonctionne désormais correctement.
+  - Les _distances parcourues_ et les _résumés des tournées_ sont mis à jour.
+
+- Correction de l'affichage de la liste des résultats enregistrés.
+
 ## Version 0.13
 _03/05/2021_
 
@@ -23,7 +47,7 @@ _26/04/2021_
 
 ### Nouvelles fonctionnalités
 
-- Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers v1.10.0 et modification du format de la "fleet" en conséquence.
+- Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers _v1.10.0_ et modification du format de la "fleet" en conséquence.
 - Modification manuelle de l'ordre et de l'attribution des clients aux chauffeurs après optimisation. La carte et le tableau des tournées sont modifiés en conséquence. Cette option a cependant 2 limites majeures. Elle ne permet pas d'attribuer un chauffeur à des clients non desservis. D'autre part, les heures de passages et les distances de parcours ne sont pas mis à jour. Le résumé et les distances et heures de passage ne sont plus exacts dès qu'une modification est réalisée.
 ![](./_media/screenshot_reorganizeSolution.png)  
 
