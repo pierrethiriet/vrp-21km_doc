@@ -8,12 +8,23 @@ _24/06/2021_
 
 - Mise à jour de _[vrp-cli](https://github.com/reinterpretcat/vrp)_ vers _v1.10.4_.
 
-- Possibilité d'élargir les créneaux de livraison uniquement _plus tard_ ou _plus tôt_.  
+- Possibilité d'ajouter des pauses définies par une heure de début et de fin et éventuellement un lieu. La durée des pauses correspond donc à l'intervalle entre l'heure de début et de fin. Si aucun lieu n'est donné, les pauses seront considérées comme prises chez les derniers clients servis. Les pause sont prédéfini
+  - Les pauses sont prédéfinies dans le menu _Paramètres > Service_
+  ![](./_media/screenshot_pause2.png) 
+  - Les pauses peuvent être attribuées à chaque chauffeur:
+![](./_media/screenshot_pause1.png) 
+
+
+Note : L'application considère que les pauses ne sont pas des critères prioritaires. Les résultats peuvent donc ne pas les inclure si elles ont des impacts trop forts sur l'optimisation.
+
+- Possibilité d'élargir les créneaux de livraison uniquement _plus tard_ (`Fenêtre de temps +...`) ou _plus tôt_ (`Fenêtre de temps -...`).  
 ![](./_media/screenshot_tw_options.png) 
 
 - Ajout d'un message d'erreur si la somme des capacités des véhicules  est inférieure à la demande.  
+![](./_media/screenshot_WarningCapacity.png) 
 
-- Amélioration des messages d'erreurs lors du géocodage des clients.
+- Amélioration des messages d'erreurs lors du géocodage des clients.  
+![](./_media/screenshot_GeocodingError.png) 
 
 ### Corrections
 
